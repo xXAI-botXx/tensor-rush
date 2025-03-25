@@ -90,9 +90,9 @@ rush::Tensor MyDataClass::get_item(int idx) const {
 
 rush::nn::Model model;
 
-model.add(rush::nn::Layer(128, rush::Activation::ReLU));  // ✅ Example of adding layers
+model.add(rush::nn::Layer(128, rush::Activation::ReLU));
 model.add(rush::nn::Layer(64, rush::Activation::ReLU));
-model.add(rush::nn::Layer(10, rush::Activation::Softmax));  // ✅ Output layer
+model.add(rush::nn::Layer(10, rush::Activation::Softmax));
 ```
 
 ```cpp
@@ -102,7 +102,7 @@ model.initialize();
 
 **Train AI Model**
 ```cpp
-rush::data::Dataset dataset = MyDataClass();  // ✅ Load dataset
+rush::data::Dataset dataset = MyDataClass();
 
 model.train(dataset, 10 /*epochs*/, 0.01 /*learning rate*/);
 ```
@@ -131,7 +131,7 @@ std::cout << "Predicted values: " << output << std::endl;
 
 #### Needed Functionality
 
--> Core Modules (Ordered by Namespace)**
+-> Core Modules (Ordered by Namespace)
 
 | **Namespace** | **Feature** | **Description** |
 |--------------|------------|----------------|
@@ -159,7 +159,7 @@ std::cout << "Predicted values: " << output << std::endl;
 
 Following ressource got used during the creation process:
 - Deep Learning: Das umfassende Handbuch -> [Thalia](https://www.thalia.de/shop/home/artikeldetails/A1053281203), [Amazon](https://www.amazon.de/Deep-Learning-umfassende-Handbuch-Forschungsans%C3%A4tze/dp/3958457002/ref=sr_1_1), [Heise Shop](https://shop.heise.de/deep-learning-das-umfassende-handbuch)
-- Neuronale Netze programmieren mit Python -> [Amazon]https://www.amazon.de/Neuronale-Netze-programmieren-Python-Python-Crashkurs/dp/3367102547/ref=sr_1_1), [Rheinwerk Verlag](https://www.rheinwerk-verlag.de/neuronale-netze-programmieren-mit-python/)
+- Neuronale Netze programmieren mit Python -> [Amazon](https://www.amazon.de/Neuronale-Netze-programmieren-Python-Python-Crashkurs/dp/3367102547/ref=sr_1_1), [Rheinwerk Verlag](https://www.rheinwerk-verlag.de/neuronale-netze-programmieren-mit-python/)
 - Vulkan Compute: High-Performance Compute Programming with Vulkan and Compute Shaders -> [Amazon](https://www.amazon.de/Vulkan-Compute-High-Performance-Programming-Shaders/dp/B0DLTCL3W8)
 
 
