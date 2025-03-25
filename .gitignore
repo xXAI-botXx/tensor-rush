@@ -1,0 +1,19 @@
+
+# dirs to ignore
+/.vs/*
+/res/*
+*x64
+
+# file types to ignore
+*.dll
+*.lib
+*.aps
+*.exe
+
+# don't ignore
+!res/cover.png
+
+
+
+
+
