@@ -53,6 +53,27 @@ The documentation is created with Doxygen,[see here for more details](https://gi
 ### Planning
 
 
+#### Starting
+
+1. Create a Git/Github Repo
+2. Create a Visual Studio Project inside of the repo (make a dynamic library project)
+
+
+#### Strcuture
+
+With one master header and sub-master headers.
+```
+src/
+├── tensor-rush.h       ← master header
+├── tensor.h            ← Tensor class
+├── autograd.h          ← Backprop support
+├── layer.h             ← Layers (nn)
+├── model.h             ← Model class
+├── activation.h        ← Activation enum or functions
+└── nn/
+    └── nn.h            ← wraps all nn stuff (Model, Layer)
+```
+
 
 #### Usage 
 

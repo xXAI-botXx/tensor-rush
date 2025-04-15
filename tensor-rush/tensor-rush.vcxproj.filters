@@ -19,9 +19,6 @@
     <Filter Include="Quelldateien\dll">
       <UniqueIdentifier>{7a19f97b-a888-4725-90fb-0c518c52e9fd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headerdateien\math">
-      <UniqueIdentifier>{2eaeecd0-8d5b-4da9-80e8-7b5f9b972382}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Headerdateien\nn">
       <UniqueIdentifier>{d8aaf7d0-4c14-4071-93fe-a7c77dacc57c}</UniqueIdentifier>
     </Filter>
@@ -37,6 +34,9 @@
     <Filter Include="Headerdateien\device">
       <UniqueIdentifier>{ae04c74c-55e7-49b9-b968-d67e588a51e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Headerdateien\math">
+      <UniqueIdentifier>{2eaeecd0-8d5b-4da9-80e8-7b5f9b972382}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tensor-rush.h">
@@ -51,6 +51,12 @@
     <ClInclude Include="framework.h">
       <Filter>Headerdateien\dll</Filter>
     </ClInclude>
+    <ClInclude Include="neural-network.h">
+      <Filter>Headerdateien\nn</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Headerdateien\math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tensor-rush.cpp">
@@ -61,6 +67,12 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Quelldateien\dll</Filter>
+    </ClCompile>
+    <ClCompile Include="neural-network.cpp">
+      <Filter>Quelldateien\nn</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Quelldateien\math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

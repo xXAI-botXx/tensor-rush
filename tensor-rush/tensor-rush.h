@@ -7,12 +7,20 @@
 #define TENSOR_RUSH_API __declspec(dllimport)
 #endif
 
+// Submodules
+#include "neural-network.h"
+#include "math.h"
 
-class TENSOR_RUSH_API MeineKlasse {
-public:
-    MeineKlasse();
-    void sagHallo();
-};
+namespace rush {
 
+
+    class TENSOR_RUSH_API MeineKlasse {
+    public:
+        MeineKlasse();
+        void sagHallo();
+    };
+
+
+}
 
 

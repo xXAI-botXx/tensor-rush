@@ -140,12 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="neural-network.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="tensor-rush.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="math.cpp" />
+    <ClCompile Include="neural-network.cpp" />
     <ClCompile Include="tensor-rush.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

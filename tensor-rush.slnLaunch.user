@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Neues Profil",
+    "Projects": [
+      {
+        "Path": "tensor-rush\\tensor-rush.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "test\\test.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

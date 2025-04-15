@@ -1,11 +1,11 @@
 #include "pch.h"
-#include "tensor-rush.hpp"
+#include "tensor-rush.h"
 
 #include <iostream>
 
-MeineKlasse::MeineKlasse() {}
+rush::MeineKlasse::MeineKlasse() {}
 
-void MeineKlasse::sagHallo() {
+void rush::MeineKlasse::sagHallo() {
     std::cout << "Hallo von der Bibliothek!" << std::endl;
 }
 
